@@ -1,5 +1,5 @@
-﻿.button {
-    border: medium;
+.button {
+    border: solid;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -10,10 +10,23 @@
     cursor: pointer;
 }
 .button2 {
-    background-color: #F5441E;
+    background-image: linear-gradient(90deg, #001BFF 0%, #ff0000 100%);
     color: black;
 }
-.button2:hover {
-        background-color: #008CBA;
+    .button2:hover {
+        background-image: linear-gradient(90deg, #2ECC71 0%, #2ECC71 100%);
         color: white;
     }
+.button1{
+    background-color: blueviolet;
+        color: black;
+}
+    .button1:hover {
+        transition: background-image 3s ease-in-out;
+        background-image: linear-gradient(90deg, #001BFF 0%, #ff0000 100%);
+        color: white;
+    }
+.bigtext {
+    font-size: 36px;
+    color: cornflowerblue;
+}
